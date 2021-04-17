@@ -7,7 +7,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                        <div class="logo-part">
-                           <a href="index-2.html"><img src="{{ asset('assets/images/app_logo.png') }}" alt=""></a>
+                           <a href="/"><img src="{{ asset('assets/images/app_logo.png') }}" alt=""></a>
                        </div>
                        <div class="mobile-menu">
                            <a href="#" class="rs-menu-toggle rs-menu-toggle-close secondary">
