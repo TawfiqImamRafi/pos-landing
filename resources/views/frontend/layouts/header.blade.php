@@ -7,7 +7,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                        <div class="logo-part">
-                           <a href="index-2.html"><img src="assets/images/app_logo.png" alt=""></a>
+                           <a href="index-2.html"><img src="{{ asset('assets/images/app_logo.png') }}" alt=""></a>
                        </div>
                        <div class="mobile-menu">
                            <a href="#" class="rs-menu-toggle rs-menu-toggle-close secondary">
@@ -21,32 +21,32 @@
                                 <nav class="rs-menu pr-90 md-pr-0">
                                     <ul id="onepage-menu" class="nav-menu">
                                         <li class="current-menu-item">
-                                            <a href="#rs-header">{{__('karbari.home')}}</a>
+                                            <a href="/#rs-header">{{__('karbari.home')}}</a>
                                         </li>
                                         <li>
-                                            <a href="#rs-services">{{__('karbari.services')}}</a>
+                                            <a href="/#rs-services">{{__('karbari.services')}}</a>
                                         </li>
                                         <li>
-                                            <a href="#rs-about">{{__('karbari.about')}}</a>
+                                            <a href="/#rs-about">{{__('karbari.about')}}</a>
                                         </li>
                                         <li>
-                                            <a href="#rs-project">{{__('karbari.project')}}</a>
+                                            <a href="/#rs-project">{{__('karbari.project')}}</a>
                                         </li>
                                         <li>
-                                            <a href="#rs-pricing">{{__('karbari.pricing')}}</a>
+                                            <a href="/#rs-pricing">{{__('karbari.pricing')}}</a>
                                         </li>
                                   
                                         <li>
-                                            <a href="#rs-blog">{{__('karbari.blog')}}</a>
+                                            <a href="/#rs-blog">{{__('karbari.blog')}}</a>
                                         </li>
                                         <li>
-                                            <a href="#rs-contact">{{__('karbari.contact')}}</a>
+                                            <a href="/#rs-contact">{{__('karbari.contact')}}</a>
                                         </li>
                                               <li class="menu-item-has-children">
                                             <a href="#">{{__('karbari.language')}}</a>
                                             <ul class="sub-menu">
-                                                <li class="{{ App()->getLocale() === 'en' ? 'active' : '' }}"><a href="{{ route('eng') }}">English</a> </li>
-                                                <li class="{{ App()->getLocale() === 'bn' ? 'active' : '' }}"><a href="{{ route('bn') }}">বাংলা</a></li>
+                                                <li class="{{ App()->getLocale() === 'en' ? 'active' : '' }}"><a href="/locale/en">English</a> </li>
+                                                <li class="{{ App()->getLocale() === 'bn' ? 'active' : '' }}"><a href="/locale/bn">বাংলা</a></li>
                                             </ul>
                                          </li>
                                     </ul> <!-- //.nav-menu -->
@@ -101,7 +101,7 @@
             </div>
         </div>
         <div class="canvas-logo">
-            <a href="index-2.html"><img src="assets/images/app_logo.png" alt="logo"></a>
+            <a href="index-2.html"><img src="{{ asset('assets/images/app_logo.png') }}" alt="logo"></a>
         </div>
         <div class="offcanvas-text">
             <p>{{__('karbari.side-desc')}}</p>

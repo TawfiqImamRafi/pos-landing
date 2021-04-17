@@ -24,6 +24,8 @@ return[
     and dislike men who are so beguiled and
     demoralized by the charms.',
     'service-title'=>'Mobile Application Testing',
+    'privacy'=>'Privacy & Policy',
+    'terms'=>'Terms and Condition',
 ]
 
 ?>

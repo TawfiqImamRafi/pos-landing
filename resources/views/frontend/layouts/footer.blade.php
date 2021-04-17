@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
                     <div class="footer-logo mb-30">
-                        <a href="index-2.html"><img src="assets/images/app_logo.png" alt=""></a>
+                        <a href="index-2.html"><img src={{ asset('assets/images/app_logo.png') }} alt=""></a>
                     </div>
                       <div class="textwidget pb-30"><p>Sedut perspiciatis unde omnis iste natus error sitlutem acc usantium doloremque denounce with illo inventore veritatis</p>
                       </div>
@@ -77,16 +77,16 @@
     <div class="footer-bottom">
         <div class="container">                    
             <div class="row y-middle">
-                <div class="col-lg-6 text-right md-mb-10 order-last">
+                <div class="col-lg-7 text-right md-mb-10 order-last">
                     <ul class="copy-right-menu">
                         <li><a href="index-2.html">{{__('karbari.home')}}</a></li>
                         <li><a href="about.html">{{__('karbari.about')}}</a></li>
                         <li><a href="blog.html">{{__('karbari.blog')}}</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="/privacy">{{__('karbari.privacy')}}</a></li>
+                        <li><a href="/terms">{{__('karbari.terms')}}</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="copyright">
                         <p>&copy; 2021 All Rights Reserved. Developed By <a href="https://datatrixsoft.com/">DataTrix Soft.</a></p>
                     </div>

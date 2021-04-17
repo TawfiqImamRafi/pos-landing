@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="zxx">  
+<html lang="en">  
     
-<!-- Mirrored from rstheme.com/products/html/braintech/onepage9.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Apr 2021 06:11:33 GMT -->
 <head>
         <!-- meta tag -->
         <meta charset="utf-8">
@@ -126,5 +125,5 @@
         <script src="{{ asset('assets/js/main.js') }}"></script>
     </body>
 
-<!-- Mirrored from rstheme.com/products/html/braintech/onepage9.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Apr 2021 06:11:33 GMT -->
+
 </html>
